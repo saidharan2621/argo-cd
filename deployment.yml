@@ -8,13 +8,13 @@ spec:
   selector:
     matchLabels:
       app: swiggy
-    template:
-      metadata:
-        labels:
-          app: swiggy
-      spec:
-        containers:
-          - name: mycont1
-            image: shaikmustafa/paytm:movie
-            ports:
-              - containerPort: 80
+  template:
+    metadata:
+      labels:
+        app: swiggy
+    spec:
+      containers:
+        - name: mycont1
+          image: shaikmustafa/paytm:movie
+          ports:
+            - containerPort: 80
