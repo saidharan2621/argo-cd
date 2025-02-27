@@ -17,4 +17,4 @@ spec:
           - name: mycont1
             image: shaikmustafa/paytm:movie
             ports:
-              - containerPort: 81 
+              - containerPort: 80
